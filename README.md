@@ -62,12 +62,13 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Changed Toys.create to Toy.create
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: Added the render json: toy line in the update method
+
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: Added a destroy route in the routes.rb file 
